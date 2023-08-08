@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+        ::-webkit-scrollbar-track{
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar{
+            width: 8px;
+            height: 8px;
+        }
+
+        ::-webkit-scrollbar-thumb{
+            border-radius: 10px;
+            background-color: #D9CAB3;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+        }
+        body{
+            background-color: #181D31;
+        }
+        .container-bg{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+        .container-bg img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            object-fit: cover;
+            filter: opacity(10%);
+        }
+        .title-container-bg{
+            margin-left: 25px;
+            display: flex;
+            flex-direction: column;
+            float: left;
+            color: white;
+        }
+        .title-container-bg h1{
+            color: #D9CAB3;;
+            font-weight: 600;
+            font-size: 32px;
+            width: 400px;
+        }
+        .title-container-bg p{
+            color: white;
+            font-weight: 600;
+            font-size: 18px;
+            width: 400px;
+        }
+        aside{
+            background-color: #181D31;
+            color: white;
+        }
+        aside p a{
+            color: #D9CAB3;
+        }
+        .grid #container{
+            display: grid;
+            width: 775px;
+        }
+        video{
+            width: 100%;
+            object-fit: cover;
+        }
+        @media only screen and (max-width:1231px) {
+            .grid{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                text-align: left;
+            }
+            .grid #container{
+                display: grid;
+                width: 750px;
+            }
+        }
+        @media only screen and (max-width:1206px) {
+            .grid{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            .grid #container{
+                display: grid;
+                width: 800px;
+            }
+        }
+        @media only screen and (max-width:831px) {
+            .grid{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            .grid #container{
+                display: grid;
+                width: 600px;
+            }
+        }
+        @media only screen and (max-width:632px) {
+            .grid #container{
+                display: grid;
+                width: 450px;
+            }
+            .title-container-bg{
+                margin-right: 25px;
+            }
+        }
+        @media only screen and (max-width:481px) {
+            .grid #container{
+                display: grid;
+                width: 400px;
+            }
+            .title-container-bg p{
+                text-align: justify;
+            }
+        }
+        @media only screen and (max-width:480px) {
+            .grid #container{
+                display: grid;
+                width: 400px;
+            }
+            .title-container-bg h1{
+                margin-right: 5px;
+                width: 375px;
+                font-size: 24px;
+            }
+            .title-container-bg p{
+                text-align: justify;
+                width: 375px;
+                font-size: 14px;
+            }
+        }
+        @media only screen and (max-width:456px) {
+            .grid{
+                width: 350px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+            }
+            .title-container-bg{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin-right: 25px;
+            }
+            .title-container-bg h1{
+                width: 350px;
+                font-size: 24px;
+            }
+            .title-container-bg p{
+                text-align: justify;
+                width: 350px;
+                font-size: 14px;
+            }
+            .grid #container{
+                display: grid;
+                width: 400px;
+            }
+        }
+        @media only screen and (max-width:431px) {
+            .title-container-bg h1{
+                width: 300px;
+                font-size: 24px;
+            }
+            .title-container-bg p{
+                text-align: justify;
+                width: 325px;
+                font-size: 14px;
+            }
+            .grid #container{
+                display: grid;
+                width: 375px;
+            }
+        }
+        @media only screen and (max-width:406px) {
+            .title-container-bg h1{
+                width: 300px;
+                font-size: 24px;
+            }
+            .title-container-bg p{
+                text-align: justify;
+                width: 300px;
+                font-size: 14px;
+            }
+            .grid #container{
+                display: grid;
+                width: 350px;
+            }
+        }
+        @media only screen and (max-width:381px) {
+            .title-container-bg h1{
+                width: 275px;
+                font-size: 24px;
+            }
+            .title-container-bg p{
+                text-align: justify;
+                width: 275px;
+                font-size: 14px;
+            }
+            .grid #container{
+                display: grid;
+                width: 300px;
+            }
+        }
+        @media only screen and (max-width:356px) {
+            .title-container-bg h1{
+                width: 200px;
+                font-size: 24px;
+            }
+            .title-container-bg p{
+                text-align: justify;
+                width: 200px;
+                font-size: 14px;
+            }
+            .grid #container{
+                display: grid;
+                width: 250px;
+            }
+        }
+        @media only screen and (max-width:320px) {
+            .title-container-bg h1{
+                width: 200px;
+                font-size: 24px;
+            }
+            .title-container-bg p{
+                text-align: justify;
+                width: 200px;
+                font-size: 14px;
+            }
+            .grid #container{
+                display: grid;
+                width: 250px;
+            }
+        }
